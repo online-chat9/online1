@@ -1,22 +1,17 @@
-A very simple HTML5 version of Tetris, for educational purposes, made in 45 minutes.
+# Astray
 
-Watch the making-of timelapse:
-http://www.youtube.com/watch?v=GQTZ_TPxJhM
+A WebGL maze game built with Three.js and Box2dWeb. Play it here: http://wwwtyro.github.com/Astray/
 
-Play:
-https://dionyziz.com/graphics/canvas-tetris/
+### Launching
 
-Or you can [play it here](https://plugins.quadnix.com/launch?author=quadnix&id=canvas-tetris),
-powered by [Quadnix Plugins](https://plugins.quadnix.com).
+There are several ways to launch the game. Here is the simplest:
 
-License
-=======
-This version of tetris is MIT licensed:
+1. Clone or download the repository
+2. Navigate to Astray's directory
+3. Start 'python -m SimpleHTTPServer' in your shell (for python 3.0 and above type 'python -m http.server' in your shell)
+4. Open 'localhost:8000' in your browser
+5. Enjoy!
 
-Copyright (C) 2012 Dionysis "dionyziz" Zindros <dionyziz@gmail.com>
+### License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+I don't believe in them. You can order your bits however you please.
