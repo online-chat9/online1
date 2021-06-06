@@ -19,33 +19,7 @@
 <meta name="theme-color" content="#ffffff"> 
 <body background="g427879e941c0bf61aebd0af827cc8edc75527119265abe742.jpg">
  
- <br>
  
-
-<head>   
-  <script>
-   function digitalClock() {
-    var date = new Date();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
-    var seconds = date.getSeconds();
-       //* добавление ведущих нулей */
-      if (hours < 10) hours = "0" + hours;
-      if (minutes < 10) minutes = "0" + minutes;
-      if (seconds < 10) seconds = "0" + seconds;
-        document.getElementById("id_clock").innerHTML = hours + ":" + minutes + ":" + seconds;
-        setTimeout("digitalClock()", 1000);
-   }
-  </script>
-</head>
-Часы и вызов функции js вставить между тегами <body>...</body> на странице сайта в желаемое место.
-
-Вызов скрипта на странице
-
-<body    
-    <div id="id_clock"></div>
-    <script>digitalClock();</script>
-</body
 
 
 
